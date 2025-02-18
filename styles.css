@@ -1,0 +1,90 @@
+ /* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Contact info section */
+.contact-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+/* Section styling */
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Lists styling */
+.skills, .projects, .education, .references {
+    margin-left: 20px;
+}
+
+.skills ul, .projects ul {
+    list-style-type: none;
+}
+
+.skills li, .projects li, .education li {
+    margin: 8px 0;
+}
+
+.skills li::before, .projects li::before {
+    content: "✔";
+    margin-right: 10px;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
